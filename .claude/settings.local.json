@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(\"D:\\\\Code\\\\avalonia\\\\doc\\\\第四章-数据绑定（核心章节）.md\":*)",
+      "Bash(\"D:\\\\Code\\\\avalonia\\\\doc\\\\第七至十章-摘要版.md\":*)",
+      "Bash(for file:*)",
+      "Bash(do echo:*)",
+      "Read(//d/Code/avalonia/doc/**)",
+      "Bash(done)",
+      "Bash(cd:*)",
+      "Bash(mv \"docs/guide/chapter-04/index.md\" \"docs/guide/04-数据绑定/index.md\")",
+      "Bash(mv \"第四章-数据绑定（核心章节）.md\" \"docs/guide/04-数据绑定/\")",
+      "Bash(mv \"第五章-事件处理-1-事件绑定.md\" \"docs/guide/05-事件处理/\")",
+      "Bash(mv \"第五章-事件处理-2-Command模式.md\" \"docs/guide/05-事件处理/\")",
+      "Bash(mv \"第六章-样式与主题-1-样式系统.md\" \"docs/guide/06-样式与主题/\")",
+      "Bash(ls -la \"D:/Code/avalonia/doc/\"*.md \"D:/Code/avalonia/doc/\"*.sh)",
+      "Bash(npx vitepress:*)",
+      "Bash(xxd \"D:/Code/avalonia/doc/docs/guide/01-初识Avalonia/index.md\")",
+      "Bash(grep:*)"
+    ]
+  }
+}
