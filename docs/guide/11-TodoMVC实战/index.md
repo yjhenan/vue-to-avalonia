@@ -41,8 +41,8 @@ TodoMVC是经典的TODO应用，涵盖了增删改查、过滤、状态管理等
 | `v-for` | `ItemsControl` + `DataTemplate` | 列表渲染 |
 | `computed` 过滤 | LINQ `.Where()` | 状态过滤 |
 | `localStorage` | 文件/数据库 | 数据持久化 |
-| `methods` | `ReactiveCommand` | 操作命令 |
-| `watch` | `WhenAnyValue` | 状态监听 |
+| `methods` | `[RelayCommand]` | 操作命令 |
+| `watch` | `partial void OnXChanged()` | 状态监听 |
 | Vue组件 | UserControl | 子组件拆分 |
 | Pinia store | Service + DI | 状态管理 |
 

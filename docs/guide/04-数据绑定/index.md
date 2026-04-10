@@ -22,12 +22,12 @@
 - Vue响应式原理（Proxy）
 - Avalonia响应式机制（INotifyPropertyChanged）
 - 集合响应式对比
-- ReactiveUI框架
+- CommunityToolkit.Mvvm框架
 
 [**4.4 计算属性与监听器**](<./4.4 计算属性与监听器.md>)
 - computed属性迁移
 - watch深度监听
-- WhenAnyValue观察者模式
+- [ObservableProperty] OnChanged方法
 
 [**4.5 实战代码对比**](<./4.5 实战代码对比（详细）.md>)
 - 案例一：表单双向绑定
@@ -45,8 +45,8 @@
 | `{{ }}`插值 | `{Binding}` | 数据绑定 |
 | `v-model` | `Mode=TwoWay` | 双向绑定 |
 | `computed` | C#属性 | 计算属性 |
-| `watch` | `WhenAnyValue` | 监听变化 |
-| `ref/reactive` | `ReactiveObject` | 响应式对象 |
+| `watch` | `partial void OnXxxChanged` | 监听变化 |
+| `ref/reactive` | `ObservableObject` | 响应式对象 |
 | `Proxy` | `INotifyPropertyChanged` | 响应式原理 |
 
 ---

@@ -1,6 +1,6 @@
 # 第五章：事件处理——从@click到Command
 
-Vue中你习惯用 `@click`、`@input` 处理用户交互，在Avalonia中对应的是事件绑定和Command模式。本章将对比Vue事件系统与Avalonia事件机制，掌握从事件处理器到ICommand/ReactiveCommand的完整迁移路径。
+Vue中你习惯用 `@click`、`@input` 处理用户交互，在Avalonia中对应的是事件绑定和Command模式。本章将对比Vue事件系统与Avalonia事件机制，掌握从事件处理器到ICommand/[RelayCommand]的完整迁移路径。
 
 > **本章导读**：事件处理——掌握Avalonia中的用户交互响应方式
 
@@ -17,7 +17,7 @@ Vue中你习惯用 `@click`、`@input` 处理用户交互，在Avalonia中对应
 
 [**5.2 Command模式**](<./5.2 Command模式.md>)
 - ICommand接口详解
-- ReactiveCommand（推荐使用）
+- [RelayCommand]源生成器（推荐使用）
 - Command vs Vue methods对比
 - Command的高级用法
 - Command最佳实践
@@ -33,7 +33,7 @@ Vue中你习惯用 `@click`、`@input` 处理用户交互，在Avalonia中对应
 | `@keyup.enter` | `KeyDown` + KeyBinding | 键盘事件 |
 | `@submit.prevent` | 事件参数 `e.Handled = true` | 阻止默认行为 |
 | `v-on` | `Interaction.Behaviors` | 行为绑定 |
-| methods | `ICommand` / `ReactiveCommand` | 命令模式 |
+| methods | `ICommand` / `[RelayCommand]` | 命令模式 |
 | `$emit` | 路由事件（RoutedEvent） | 子组件通信 |
 
 ---

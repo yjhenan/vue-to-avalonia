@@ -16,7 +16,7 @@
 | CSS | Style / Selector |
 | `v-model` | `{Binding Mode=TwoWay}` |
 | `v-for` | `ItemsControl` + `DataTemplate` |
-| `computed` | C# 属性 / `WhenAnyValue` |
+| `computed` | C# 属性 / `[ObservableProperty]` |
 | Vuex / Pinia | Service + DI |
 | Vue Router | 窗口导航 / ContentControl |
 | Vue 组件 | UserControl / ControlTemplate |
