@@ -16,7 +16,10 @@
       "Bash(ls -la \"D:/Code/avalonia/doc/\"*.md \"D:/Code/avalonia/doc/\"*.sh)",
       "Bash(npx vitepress:*)",
       "Bash(xxd \"D:/Code/avalonia/doc/docs/guide/01-初识Avalonia/index.md\")",
-      "Bash(grep:*)"
+      "Bash(grep:*)",
+      "Bash(git status:*)",
+      "WebSearch",
+      "Bash(xxd \"D:/Code/avalonia/doc/docs/guide/01-初识Avalonia/1.3 技术栈对比速览表.md\")"
     ]
   }
 }
